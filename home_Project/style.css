@@ -1,0 +1,39 @@
+body{
+    background-color: green;
+   display: flex;
+   flex-direction: column;
+}
+#main{
+   border-radius: 2px;
+   
+}
+ .img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    display: block;
+    margin: auto;
+    border: 2px solid yellow;
+    height: 500px;
+    width:  300px;
+}
+i{
+    display: inline-flex; 
+    text-align: center;
+    font-size: 30px;
+    justify-self: baseline;
+    /*
+    width: 100%;
+     */ 
+}
+.myicons{
+margin-left: 480px;
+margin-right: 480px;
+background-color: white;
+}
+.fa-solid{
+    margin-left: 25px; 
+    
+}
+
